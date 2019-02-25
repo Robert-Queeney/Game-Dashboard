@@ -6,7 +6,7 @@ class ResetPower extends React.Component{
     render(){
         return(
             <div className="reset-div">
-                <button className="resetPower" handleClick={this.props.resetPower}>RESET POWER</button>
+                <button className="resetPower" onClick={this.props.resetPower}>RESET POWER</button>
             </div>
         )
     }

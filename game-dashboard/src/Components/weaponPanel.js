@@ -31,7 +31,7 @@ class WeaponPanel extends React.Component{
                 {/* <button onClick={this.props.addPower} /> */}
                 <button className="upButton" onClick={() => {this.props.upWeaponPower(); this.props.reduceTotalPower() }}>^</button>
                 <div className="weapon-div">Weapon</div>
-                <button className="downButton" onClick={()=>{this.props.downWeaponPower(); this.props.increaseTotalPower()}}></button>
+                <button className="downButton" onClick={()=>{this.props.downWeaponPower(); this.props.increaseTotalPower()}}>{[<span className="downArrow">&#8964;</span>]}</button>
             </div>
         )
     }

@@ -7,9 +7,9 @@ class MaxPowerSection extends React.Component {
         return(
             // make 3 sections and lay it out like a flexbox
             <div className="maxPowerWrapper">
-                <button className="leftButton"></button>
+                <button className="leftButton">{[`<`]}</button>
                 <div className="displayDiv">MAX POWER</div>
-                <button className="rightButton"></button>
+                <button className="rightButton">></button>
             </div>
 
         )

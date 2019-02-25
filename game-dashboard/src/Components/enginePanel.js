@@ -22,7 +22,7 @@ class EnginePanel extends React.Component{
                 <button className="MaxButton" onClick={this.props.maxEnginePower}>MAX</button>
                 <button className="upButton" onClick={()=>{this.props.upEnginePower(); this.props.reduceTotalPower()}}>^</button>
                 <div className="engine-div">Engine</div>
-                <button className="downButton" onClick={()=>{this.props.downEnginePower(); this.props.increaseTotalPower()}}></button>
+                <button className="downButton" onClick={()=>{this.props.downEnginePower(); this.props.increaseTotalPower()}}>{[<span className="downArrow">&#8964;</span>]}</button>
             </div>
         )
     }

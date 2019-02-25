@@ -3,19 +3,19 @@ import Panels from './panels';
 import Header from './header'; 
 import ResetPower from './resetPower';
 import MaxPowerSection from './maxPower';
-import styled from 'styled-components'; 
+// import styled from 'styled-components'; 
 
 
 
-const MainSection = styled.section`
-    width: 250px;  
-    background-color: green; 
-    padding: 5px; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    // align-items: center; 
-`
+// const MainSection = styled.section`
+//     width: 250px;  
+//     background-color: green; 
+//     padding: 5px; 
+//     display: flex; 
+//     flex-direction: column; 
+//     justify-content: center; 
+//     // align-items: center; 
+// `
 
 class SheildInterface extends React.Component {
     constructor(props){

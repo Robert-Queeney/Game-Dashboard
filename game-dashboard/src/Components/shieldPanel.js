@@ -23,7 +23,7 @@ class ShieldPanel extends React.Component{
                 <button className="MaxButton" onClick={this.props.maxShieldPower}>MAX</button>
                 <button className="upButton" onClick={()=>{this.props.upShieldPower(); this.props.reduceTotalPower() }}>^</button>
                 <div className="sheild-div">Shields</div>
-                <button className="downButton" onClick={()=>{this.props.downShieldPower(); this.props.increaseTotalPower()}}> </button>
+                <button className="downButton" onClick={()=>{this.props.downShieldPower(); this.props.increaseTotalPower()}}> {[<span className="downArrow">&#8964;</span>]}</button>
             </div>
         )
     }
