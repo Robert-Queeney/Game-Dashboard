@@ -2,25 +2,26 @@ import React from 'react';
 import ShieldPanel from './shieldPanel'; 
 import WeaponPanel from './weaponPanel'; 
 import EnginePanel from './enginePanel'; 
-import styled from 'styled-components'; 
+import '../css/style.css';
+// import styled from 'styled-components'; 
 
-const PanelWrapper = styled.section`
-    width: 100%; 
-    height: 200px; 
-    // padding: 5px 5px 10px 10px; 
-    background-color: #cfd8dc; 
-    display: flex; 
-    justify-content: space-evenly; 
-    align-content: stretch; 
-    align-items: center; 
-    flex-wrap: no-wrap; 
+// const PanelWrapper = styled.section`
+//     width: 100%; 
+//     height: 200px; 
+//     // padding: 5px 5px 10px 10px; 
+//     background-color: #cfd8dc; 
+//     display: flex; 
+//     justify-content: space-evenly; 
+//     align-content: stretch; 
+//     align-items: center; 
+//     flex-wrap: no-wrap; 
      
-`
+// `
 
 class Panels extends React.Component {
     render(){
         return (
-            <PanelWrapper>
+            <div className="PanelWrapper">
                 <WeaponPanel 
                     maxWeaponPower={this.props.maxWeaponPower}
                     reduceTotalPower={this.props.reduceTotalPower}
@@ -42,7 +43,7 @@ class Panels extends React.Component {
                     upEnginePower={this.props.upEnginePower}
                     downEnginePower={this.props.downEnginePower}
                 />
-            </PanelWrapper>
+            </div>
         )
     }
 }

@@ -2,7 +2,9 @@ import React from 'react';
 import Panels from './panels';
 import Header from './header'; 
 import ResetPower from './resetPower';
+import MaxPowerSection from './maxPower';
 import styled from 'styled-components'; 
+
 
 
 const MainSection = styled.section`
@@ -103,7 +105,7 @@ class SheildInterface extends React.Component {
 
     render(){
         return(
-            <MainSection>
+            <div className="MainSection">
                 {/* <button onClick={this.addPower} /> */}
                 <Header />
                 <Panels 
@@ -119,8 +121,9 @@ class SheildInterface extends React.Component {
                     downShieldPower={this.downShieldPower}
                     downEnginePower={this.downEnginePower}
                     />
+                <MaxPowerSection />
                 <ResetPower resetPower={this.resetPower}/>
-            </MainSection>
+            </div>
         )
     }
 }

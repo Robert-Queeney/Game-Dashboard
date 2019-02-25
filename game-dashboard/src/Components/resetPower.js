@@ -1,12 +1,12 @@
 import React from 'react'; 
-import Button from './upButton';
+// import Button from './upButton';
 
 
 class ResetPower extends React.Component{
     render(){
         return(
             <div className="reset-div">
-                <Button handleClick={this.props.resetPower}/>
+                <button className="resetPower" handleClick={this.props.resetPower}>RESET POWER</button>
             </div>
         )
     }

@@ -1,0 +1,140 @@
+.MainSection{
+    width: 250px; 
+    background-color: black; 
+    padding: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.HeaderWrapper{
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #0a1f20; 
+    color:#28f0e6;
+    border-bottom: 5px solid black; 
+}
+
+.PanelWrapper{
+    width: 100%; 
+    height: 200px; 
+    /* padding: 5px 5px 10px 10px;  */
+    background-color: #cfd8dc; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-content: stretch; 
+    align-items: center; 
+    flex-wrap: no-wrap; 
+    background-color: #0a1f20; 
+    border-bottom: 5px solid black; 
+}
+
+
+/* individual panels */
+.PanelWrappers{
+    height: 90%;     
+    /* border: 2px solid black;  */
+    margin: 10px;
+    /* padding: 5px;  */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 200px;  
+    color: #28f0e6;
+}
+
+.upButton{
+    width: 90%;
+    height: 50px;  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    /* background-color: #08231e;  */
+    background-image: linear-gradient(#74d3ae , #0a1f20, black);
+    color: #28f0e6;
+    font-size: 25px; 
+    border-radius: 10px 10px 0px 0px; 
+    border: 1px solid #0a1f20; 
+}
+
+.downButton{
+    width: 90%;
+    height: 50px;  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    /* background-color: #08231e;  */
+    background-image: linear-gradient(black , #0a1f20, #74d3ae);
+    color: #28f0e6;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px; 
+    border: 1px solid #0a1f20; 
+}
+
+.MaxButton{
+    width: 90%;
+    height: 35px;  
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px; 
+    border: 3px solid #28f0e6;
+    background-color: #08231e; 
+    color: #28f0e6; 
+}
+
+
+.maxPowerWrapper{
+    height: 45px; 
+    display: flex; 
+    flex-wrap: no-wrap; 
+    background-color: pink; 
+    border-bottom: 5px solid black; 
+}
+
+.leftButton{
+    height: 100%; 
+    flex-grow: 1; 
+    background-image: linear-gradient(#3b5429, #203334, #0a1f20);
+    border: none; 
+    border-right: 2px solid #28f0e6;
+}
+
+.displayDiv{
+    height: 100%; 
+    flex-grow: 2; 
+    font-size: 12px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #28f0e6;
+    background-image: linear-gradient(#3b5429, #203334, #0a1f20); 
+}
+
+.rightButton{
+    height: 100%; 
+    flex-grow: 1; 
+    background-image: linear-gradient(#3b5429, #203334, #0a1f20);
+    border: none; 
+    border-left: 2px solid #28f0e6;
+}
+
+.resetPower{
+    width: 100%; 
+    height: 50px; 
+    font-size: 12px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #28f0e6; 
+    background-image: linear-gradient(#0a1f20, #203334, #74d3ae); 
+    border-radius: 0 0 10px 10px; 
+    /* border-top: 5px solid black;  */
+    border: 1px solid black; 
+}
